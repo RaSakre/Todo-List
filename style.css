@@ -1,0 +1,130 @@
+.page{
+	background-color: #0D0714;
+}
+
+._container{
+	max-width: 864px;
+	margin: 0 auto;
+}
+
+.header__form-input{
+	background-color: #0D0714;
+	border: 1px solid #3E1671;
+	padding: 11px 15px;
+	height: 40px;
+	border-radius: 10px;
+	margin-right: 11px;
+	width: 45%;
+	color: white;
+	font-family: 'Inter';
+}
+
+.header__form-input::placeholder{
+	font-family: 'Inter';
+	font-size: 16px;
+}
+
+.header__form-button{
+	background-color: #9E78CF;
+	width: 40px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	min-height: 40px;
+	padding: 9px;
+}
+
+.tasks{
+	margin-top: 60px;
+}
+
+.tasks-todo{
+	color: white;
+	font-family: 'Inter';
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 16px;
+}
+
+.task-text{
+	color: #9E78CF;
+	font-size: 16px;
+	font-family: 'Inter';
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+}
+
+.tasks__list{
+	display: grid;
+	gap: 16px;
+}
+
+.todo-task{
+
+}
+
+.task{
+	display: inline-flex;
+	padding: 22px 20px;
+	background-color: #15101C;
+	width: 45%;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.button__wrapper{
+	display: flex;
+	gap: 8px;
+}
+
+.task-complete-button{
+	width: 30px;
+	height: 30px;
+	background-image: url(./images/Vector.svg);
+	border: none;
+	background-size: 18px 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.task-delete-button{
+	width: 30px;
+	height: 30px;
+	background-image: url(./images/TrashSimple.svg);
+	border: none;
+	background-size: 22px 22px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.task-delete-button:hover{
+	background-image: url(./images/TrashSimplepurp.svg);
+}
+
+.completed-tasks{
+	margin-top: 60px;
+}
+
+.tasks-done{
+	font-family: 'Inter';
+	font-size: 16px;
+	font-weight: normal;
+	color: white;
+	margin-bottom: 16px;
+}
+
+.done-task-text{
+	color: #78CFB0;
+	font-size: 16px;
+	font-family: 'Inter';
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+.done-list{
+	display: grid;
+	gap: 16px;
+}
