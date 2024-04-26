@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "d2b0",
+      "title": "Постирать ",
+      "completed": true
+    },
+    {
+      "id": "560a",
+      "title": "Завершить проект",
+      "completed": true
+    }
+  ]
+}

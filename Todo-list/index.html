@@ -15,12 +15,13 @@
   <body class="page">
     <header class="header">
       <div class="header__container _container">
-        <form name="task-form" class="header__form">
+        <form id="form" name="task-form" class="header__form">
           <input
             name="task-name"
             type="text"
             class="header__form-input"
             placeholder="Add a new task"
+						id="input"
           />
           <button type="submit" class="header__form-button">+</button>
         </form>
@@ -40,7 +41,6 @@
         <ul class="done-list"></ul>
       </div>
     </footer>
-
     <template id="task-template">
       <li class="todo-task task">
         <p class="task-text"></p>
